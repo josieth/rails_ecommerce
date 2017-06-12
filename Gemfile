@@ -52,7 +52,10 @@ group :development, :test do
   gem 'dotenv-rails'
   gem 'faker'
   gem 'annotate'
-
+  gem 'rspec-rails'
+  gem 'shoulda-matchers'
+  gem 'database_cleaner'
+  gem 'simplecov'
 end
 
 group :development do
